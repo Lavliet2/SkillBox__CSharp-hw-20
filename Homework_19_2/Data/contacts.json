@@ -1,0 +1,47 @@
+[
+  {
+    "ID": 1,
+    "LastName": "Мурзин",
+    "FirstName": "Алексей",
+    "MiddleName": "Валерьевич",
+    "PhoneNumber": "334-456",
+    "Address": "г. Тюмень",
+    "Description": "Я"
+  },
+  {
+    "ID": 2,
+    "LastName": "Друшляк",
+    "FirstName": "Илья",
+    "MiddleName": "Петрович",
+    "PhoneNumber": "758-664",
+    "Address": "г. Тюмень",
+    "Description": "Коллега"
+  },
+  {
+    "ID": 3,
+    "LastName": "Карпов",
+    "FirstName": "Даниил",
+    "MiddleName": "Васильевич",
+    "PhoneNumber": "558-156",
+    "Address": "г. Тюмень",
+    "Description": "Друг"
+  },
+  {
+    "ID": 4,
+    "LastName": "Кондратьев",
+    "FirstName": "Николай",
+    "MiddleName": "Ильич",
+    "PhoneNumber": "123-547",
+    "Address": "г. Тюмень",
+    "Description": "Друг"
+  },
+  {
+    "ID": 5,
+    "LastName": "Рагозин",
+    "FirstName": "Василий",
+    "MiddleName": "Викторович",
+    "PhoneNumber": "455-665",
+    "Address": "г. Тюмень",
+    "Description": "Друг"
+  }
+]

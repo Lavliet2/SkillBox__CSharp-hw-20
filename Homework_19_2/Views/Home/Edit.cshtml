@@ -1,0 +1,43 @@
+﻿@model Homework_20.Models.Contact
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Редактировать контакт</title>
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container mt-4">
+        <h2>Редактирование контакта</h2>
+        <form asp-action="Edit" method="post" class="mt-3">
+            <input type="hidden" asp-for="ID" />
+            <div class="mb-3">
+                <label for="LastName" class="form-label">Фамилия:</label>
+                <input type="text" class="form-control" name="LastName" value="@Model.LastName" id="LastName" required>
+            </div>
+            <div class="mb-3">
+                <label for="FirstName" class="form-label">Имя:</label>
+                <input type="text" class="form-control" name="FirstName" value="@Model.FirstName" id="FirstName" required>
+            </div>
+            <div class="mb-3">
+                <label for="MiddleName" class="form-label">Отчество:</label>
+                <input type="text" class="form-control" name="MiddleName" value="@Model.MiddleName" id="MiddleName" required>
+            </div>
+            <div class="mb-3">
+                <label for="PhoneNumber" class="form-label">Телефон:</label>
+                <input type="text" class="form-control" name="PhoneNumber" value="@Model.PhoneNumber" id="PhoneNumber" required>
+            </div>
+            <div class="mb-3">
+                <label for="Address" class="form-label">Адрес:</label>
+                <input type="text" class="form-control" name="Address" value="@Model.Address" id="Address" required>
+            </div>
+            <div class="mb-3">
+                <label for="Description" class="form-label">Описание:</label>
+                <input type="text" class="form-control" name="Description" value="@Model.Description" id="Description">
+            </div>
+            <button type="submit" class="btn btn-primary">Сохранить</button>
+        </form>
+    </div>
+</body>
+</html>
